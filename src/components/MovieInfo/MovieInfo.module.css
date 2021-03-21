@@ -1,0 +1,53 @@
+.btn {
+  color: white;
+  margin-bottom: 10px;
+  font-weight: 700;
+  padding: 5px;
+  border-radius: 5px;
+  border-color: rgb(66, 12, 192);
+  background-color: rgb(66, 12, 192);
+}
+
+.btn:hover {
+  transform: scale(1.08);
+  background-color: rgb(165, 42, 134);
+  border-color: rgb(165, 42, 134);
+}
+
+.wrapper {
+  display: flex;
+}
+
+.poster {
+  height: 400px;
+  width: 260px;
+  margin-bottom: 20px;
+  margin-right: 40px;
+}
+
+.movie_title {
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.cast,
+.reviews {
+  color: rgb(66, 12, 192);
+  font-weight: 700;
+  margin-right: 40px;
+}
+
+.cast:hover,
+.reviews:hover {
+  color: rgb(165, 42, 134);
+}
+
+.reviews {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.fallback {
+  text-align: center;
+}
